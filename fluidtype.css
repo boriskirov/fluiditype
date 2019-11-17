@@ -1,0 +1,144 @@
+/* Set box-sizing globally to handle padding and border widths */
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+/* Import of the Inter Font*/
+@import url('https://rsms.me/inter/inter.css');
+@supports (font-variation-settings: normal){
+
+}
+html { 
+  font-family: "Inter", sans-serif;
+}
+
+/* Base*/
+:root {
+  --fontSize: calc(12px + 0.698vw); /* The character count on */  
+  --lineHeight: calc(var(--fontSize) * 1.4);
+  --letterSpacing: calc(var(--fontSize) * 0.0015);
+  --fontWeight: 300;
+}
+
+
+p, li, b, i, strong, a, mark {
+  font-size: var(--fontSize);
+  line-height: var(--lineHeight);
+  letter-spacing: var(--letterSpacing);
+  font-feature-settings: normal;
+  font-family: "Inter", sans-serif;
+}
+
+p, li , mark, a, blockquote {
+    font-weight: calc(var(--fontWeight)* 1.33);
+}
+
+code {
+  font-size: calc(var(--fontSize) * 1.1);
+  line-height: var(--lineHeight);
+  letter-spacing: var(--letterSpacing); 
+  font-weight: calc(var(--fontWeight)* 1.33);
+  color: #EB5757;
+  font-family: "Inter", sans-serif;
+}
+
+mark {
+  background: #B3D7FF; /* The color is the native browser highlight text color, to make the appeal of importance and focus on specific areas of the text.*/  
+  padding: 0.05vw 0.4vw;
+  border-radius: 2px;
+  color: #545454;
+  font-size: calc(var(--fontSize) * 1.1);
+  letter-spacing: var(--letterSpacing);
+  font-weight: calc(var(--fontWeight)* 1.33);
+  word-break: break-word;
+  font-family: "Inter", sans-serif;
+}
+
+blockquote {
+  background-color: #f7f7f7;
+  font-size: calc(var(--fontSize) * 1.1);
+  letter-spacing: var(--letterSpacing);
+  border-left: 4px solid #545454;
+  border-radius: 2px;
+  padding: 2.5vw;
+  margin: 2%;
+  font-style: italic;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  color: #545454;
+  text-decoration-skip-ink: none;
+  font-family: "Inter", sans-serif;
+}
+
+a:focus {
+  outline: 1px dashed #0004b3;
+}
+
+a:hover {
+  color: #0004b3;
+}
+
+pre {
+    background-color: #282c35;
+    color: #abb2bf;
+    display: block;
+    margin: 0 0 1.5625em;
+    border-radius: 4px;
+    overflow: auto;
+    padding: 2.5vw;
+    tab-size: 4;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    white-space: pre-wrap;
+    word-break: break-all;
+    font-size: calc(var(--fontSize) * 1.1);
+    letter-spacing: var(--letterSpacing);
+    font-family: "Inter", sans-serif;
+}
+
+h1{
+  font-size: calc(var(--fontSize) * 3);
+  letter-spacing: var(--letterSpacing);
+  font-weight: calc(var(--fontWeight)* 2.66);
+  font-family: "Inter", sans-serif;
+}
+
+h2 {
+  font-size: calc(var(--fontSize) * 2);
+  letter-spacing: var(--letterSpacing);
+  font-weight: calc(var(--fontWeight)* 2.33);
+  font-family: "Inter", sans-serif;
+}
+
+h3 {
+  font-size: calc(var(--fontSize) * 1.750);
+  letter-spacing: var(--letterSpacing);
+  font-weight: calc(var(--fontWeight)* 2);
+  font-family: "Inter", sans-serif;
+}
+
+h4 {
+  font-size: calc(var(--fontSize) * 1.5);
+  letter-spacing: var(--letterSpacing);
+  font-weight: calc(var(--fontWeight)* 1.667);
+  font-family: "Inter", sans-serif;
+}
+
+h5 {
+  font-size: calc(var(--fontSize) * 1.25);
+  letter-spacing: var(--letterSpacing);
+  font-weight: calc(var(--fontWeight)* 1.5);
+  font-family: "Inter", sans-serif;
+}
+
+h6{
+  font-size: calc(var(--fontSize) * 1);
+  letter-spacing: var(--letterSpacing);
+  font-weight: calc(var(--fontWeight)* 1);
+  font-family: "Inter", sans-serif;
+}
+
