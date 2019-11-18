@@ -1,9 +1,7 @@
-# Fluiditype
-Fluiditype a simple fluid typography css helper for reading experience
-
 ![alt text](https://s5.gifyu.com/images/hero-fluiditype8b94beab91d8e8db.gif)
 
-<h1 class="heading">Fluiditype CSS</h1>
+# Fluiditype
+Fluiditype a simple fluid typography css helper for reading experience
   <p>Fully fluid <code>Headings</code>, <code>Paragraphs</code>, <code>Blockquotes</code>, <code>Lists</code>, <code>Highlights</code> etc.</p>
   <p>This small CSS library serves to avoid responsive web but focus more on fluidity and systematic approach which will let the interface to communicate with the environment and not to be broken by rules. This would wokr perfect for blogs, portfolio websites and simple pages.</p>
 <h4>Table of contents</h4>
