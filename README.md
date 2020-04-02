@@ -7,4 +7,4 @@ Fluiditype a simple fluid typography css helper for reading experience
   
 ## How to run
 - You can download the package directly from Github.</li>
-- You can run  in ```git clone``` to get the package.
+- You can run ```git clone``` in your Terminal with copied https://github.com/sboriskirov/fluiditype.git to get the package.
