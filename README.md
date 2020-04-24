@@ -22,7 +22,8 @@ The main rules are set in a ``` :root ``` selector, because of it's high specifi
 ### 🔠 Font-size 
 Everything in the ``` fluiditype.css ``` file is dependant and connected to the :root selector font-size calculation.
 
-## 🕸 Fluiditype schema 
+
+# 🕸 Fluiditype schema 
 <br>
 
 ![alt text](https://i.ibb.co/2NPb58X/Headings.png)
