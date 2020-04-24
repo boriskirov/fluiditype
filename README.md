@@ -23,24 +23,29 @@ The main rules are set in a ``` :root ``` selector, because of it's high specifi
 Everything in the ``` fluiditype.css ``` file is dependant and connected to the :root selector font-size calculation.
 
 ## 🕸 Fluiditype schema 
+<br>
 
 ![alt text](https://i.ibb.co/2NPb58X/Headings.png)
 
 The Headings elements representing six levels of section headings. The ``` h1 ``` defines the most important heading. The ``` h6 ``` defines the least important heading.
+<br>
 
 ![alt text](https://i.ibb.co/qdCf0bp/Paragraphs.png)
 
 There are different text elements which are part of the Fluiditype such as ```p```paragraph element, ```blockquote``` quote element and all different styles that can be used for text like ```bold```, ```underlined```, ```deleted``` and ```mark```.
+<br>
 
 ![alt text](https://i.ibb.co/9WMQNLd/Lists.png)
 
 Ordered ```ol```and underodered ```ul```lists with the ```li``` element.
+<br>
 
 ![alt text](https://i.ibb.co/b6Zq179/Code-Snippets.png)
 
 For better documentation and reading experience we added special definitions for some main HTML elements. 
 The HTML ```code``` element displays its contents styled in a fashion intended to indicate that the text is a short fragment of computer code.
 The HTML ```pre``` element represents preformatted text which is to be presented exactly as written in the HTML file.
+<br>
 
 ![alt text](https://i.ibb.co/b3H7Rzg/Links.png)
 We also covered the behaviour of the HTML ```a``` element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address for consistency and better experience with the web typography. 
