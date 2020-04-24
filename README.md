@@ -19,9 +19,28 @@ You will find a simple ``` .css ``` file which would ideally make your typograph
 
 The main rules are set in a ``` :root ``` selector, because of it's high specificity. There we decalre the global CSS variables, which can be changed and customised to answer the needs of your project.
 
-### 🔠 Font-size 
-Everything in the ``` fluiditype.css ``` file is dependant and connected to the :root selector font-size calculation.
+```shell 
+:root {
+  --fontSize: calc(12px + 0.698vw); /* The character count on */  
+  --lineHeight: calc(var(--fontSize) * 1.4);
+  --letterSpacing: calc(var(--fontSize) * 0.0015);
+  --fontWeight: 300;
+}
+```
 
+### 🔠 Font-size 
+Everything in the ``` fluiditype.css ``` file is dependant and connected to the :root selector font-size calculation. 
+
+Example:
+``` shell
+p, li, b, i, strong, a, mark {
+  font-size: var(--fontSize);
+  line-height: var(--lineHeight);
+  letter-spacing: var(--letterSpacing);
+  font-feature-settings: normal;
+  font-family: "Inter", sans-serif;
+}
+```
 
 # 🕸 Fluiditype schema 
 <br>
