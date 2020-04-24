@@ -52,3 +52,12 @@ The HTML ```pre``` element represents preformatted text which is to be presented
 We also covered the behaviour of the HTML ```a``` element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address for consistency and better experience with the web typography. 
 
 
+## 📝 License
+Licensed under the [MIT License](./LICENSE).
+
+## 🌐 Thanks
+You can always check the cool animations on our own [Gatsby](https://gatsbyjs.com) developed website, visit [Fluiditype](https://fluiditype.com).
+
+## 👨‍💻 Always improving
+We are always working on improving [Fluiditype](https://fluiditype.com), if you want you can always contribute and ask for more, this would help us create something more meaningful.
+
