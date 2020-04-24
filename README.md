@@ -48,6 +48,7 @@ The HTML ```pre``` element represents preformatted text which is to be presented
 <br>
 
 ![alt text](https://i.ibb.co/b3H7Rzg/Links.png)
+
 We also covered the behaviour of the HTML ```a``` element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address for consistency and better experience with the web typography. 
 
 
