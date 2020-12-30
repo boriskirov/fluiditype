@@ -17,14 +17,14 @@ Fluiditype a simple fluid typography css helper for reading experience
 ## 🔬 What's inside
 You will find a simple ``` .css ``` file which would ideally make your typography fluid and responsive to the screensize, without breaking your layout, it would impact only the typography styles. 
 
-The main rules are set in a ``` :root ``` selector, because of it's high specificity. There we decalre the global CSS variables, which can be changed and customised to answer the needs of your project.
+The main rules are set in a ``` :root ``` selector, because of it's high specificity. There we declare the global CSS variables, which can be changed and customised to answer the needs of your project.
 
 ```shell 
 :root {
-  --fontSize: calc(12px + 0.698vw); /* The character count on */  
-  --lineHeight: calc(var(--fontSize) * 1.4);
-  --letterSpacing: calc(var(--fontSize) * 0.0015);
-  --fontWeight: 300;
+  --font-size: calc(12px + 0.698vw); /* The character count on */  
+  --line-height: calc(var(--font-size) * 1.4);
+  --letter-spacing: calc(var(--font-size) * 0.0015);
+  --font-weight: 300;
 }
 ```
 
@@ -34,11 +34,11 @@ Everything in the ``` fluiditype.css ``` file is dependant and connected to the 
 Example:
 ``` shell
 p, li, b, i, strong, a, mark {
-  font-size: var(--fontSize);
-  line-height: var(--lineHeight);
-  letter-spacing: var(--letterSpacing);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  letter-spacing: var(--letter-spacing);
   font-feature-settings: normal;
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-family);
 }
 ```
 
