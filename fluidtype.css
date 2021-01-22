@@ -28,6 +28,7 @@
 html, body { 
   font-family: var(--font-family);
   word-break: break-word;
+  font-variant-numeric: slashed-zero;
 }
 
 
