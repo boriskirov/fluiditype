@@ -1,0 +1,25 @@
+{
+  "name": "fluiditype",
+  "version": "1.0.0",
+  "description": "Fluiditype a simple fluid typography css helper for reading experience",
+  "main": "fluiditype.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boriskirov/fluiditype.git"
+  },
+  "keywords": [
+    "typography",
+    "system",
+    "fluid",
+    "css"
+  ],
+  "author": "Boris Kirov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boriskirov/fluiditype/issues"
+  },
+  "homepage": "https://fluiditype.com"
+}
